@@ -1,0 +1,31 @@
+
+    
+
+
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="start"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ExpandableListView
+            android:id="@+id/ELV1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#dcdcdc"
+            android:choiceMode="singleChoice"
+            android:scrollbars="vertical"
+            tools:context="com.sandy.watchingTV.NavigationDrawerFragment" >
+        </ExpandableListView>
+
+    </RelativeLayout>
+      
+        
+    </LinearLayout>

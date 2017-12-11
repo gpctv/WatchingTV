@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sandy.watchingTV.MainActivity" >
+
+    <item
+        android:id="@+id/action_example"
+        android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>onOptionsItemSelectedonOptionsItemSelected
+    <item android:id="@+id/search_day" 
+        android:orderInCategory="0"
+         android:title="@string/search_day"></item>
+    <item android:id="@+id/alarmList" 
+        android:orderInCategory="1"
+        android:title="@string/alarmList"></item>
+
+</menu>

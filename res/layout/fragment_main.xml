@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sandy.watchingTV.MainActivity$PlaceholderFragment" >
+
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" 
+         
+         android:layout_above="@+id/LL1"
+          >
+
+        <ListView
+            android:id="@+id/pgList1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#fffacd"
+            android:choiceMode="multipleChoice"
+            
+            android:drawSelectorOnTop="true"
+            android:fadingEdge="none" />
+        
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/LL1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+         android:orientation="vertical" >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" >
+
+               <Button
+                   android:id="@+id/btNextDay"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="NextDay" />
+
+               <Button
+                   android:id="@+id/btHome"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Today" />
+
+               <TextView
+                   android:id="@+id/tvShowTime"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="今日"
+                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="320dp"
+               android:layout_height="50dp"
+               android:orientation="vertical" >
+
+             
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" "
+                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+           </LinearLayout>
+
+     </LinearLayout>
+ 
+     
+
+   
+         
+      
+
+    
+       <ProgressBar
+     android:id="@+id/pbContainer"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true" 
+     android:layout_centerInParent="true"
+     android:minHeight="59dp"
+     android:minWidth="59dp" >
+</ProgressBar>
+</RelativeLayout>
